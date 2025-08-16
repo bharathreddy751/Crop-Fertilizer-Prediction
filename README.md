@@ -1,6 +1,6 @@
 # Crop Fertilizer Prediction
 
-This project predicts the best fertilizer for a given crop based on soil and environmental conditions such as Nitrogen, Phosphorus, Potassium, Temperature, Humidity, pH, and Rainfall. It uses Machine Learning to assist farmers and agricultural researchers in optimizing crop yield.
+This project predicts the best fertilizer for a given crop based on soil and environmental conditions such as Soil Type, Crop Type, Humidity, Moisture, Nitrogen, Phosphorus, Potassium and Temperature.  It uses Machine Learning to assist farmers and agricultural researchers in optimizing crop yield.
 
 ## Features
 - Input soil and weather conditions
@@ -24,15 +24,16 @@ Or run the Python script:
 python crop_fertilizer_prediction.py
 
 ## Example Input
-Nitrogen (N): 90
-Phosphorus (P): 42
-Potassium (K): 43
-Temperature: 26.5°C
-Humidity: 80%
-pH: 6.5
-Rainfall: 200 mm
+Soil Type: black<br>
+Crop Type: paddy<br>
+Humidity: 80<br>
+Moisture: 80<br>
+Nitrogen (N): 40<br>
+Phosphorus (P): 40<br>
+Potassium (K): 40<br>
+Temperature: 32°<br>
 
 ## Example Output
-Recommended Fertilizer: Urea
+Recommended Fertilizer: Potassium sulfate.
 
 
